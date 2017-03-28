@@ -1,0 +1,17 @@
+[
+    {
+        "Classification": "presto-config",
+        "Properties": {
+            "presto.version": "0.148"
+        }
+    },
+    {
+        "Classification": "hive-site",
+        "Properties": {
+            "javax.jdo.option.ConnectionURL": "jdbc:mysql:\/\/hivemetastore\/hivemetastore?createDatabaseIfNotExist=true",
+            "javax.jdo.option.ConnectionDriverName": "org.mysql.jdbc.Driver",
+            "javax.jdo.option.ConnectionUserName": "",
+            "javax.jdo.option.ConnectionPassword": ""
+        }
+    }
+]
